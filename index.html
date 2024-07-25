@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Proyecto M1</h1>
-</body>
+  </head>
+
+  <body>
+    <header>
+      <span id="myportfolio">
+        <table>
+          <tr>
+            <th><img src="./assets/imgs/photo.png" alt="yo" /></th>
+            <th><h1>Johan Rocha - Fullstack Developer</h1></th>
+          </tr>
+        </table>
+    </span>
+
+      <nav>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <article>
+        <h2>About me</h2>
+        <p>
+          Hola!! Soy Johan Rocha y soy estudiante del Bootcamp Fullstack
+          Developer de HENRY!!! Actualmente pertenesco a la Cohorte 53 FullTime
+          y estoy contento de aprender nuevas tecnologias de desarrollo de
+          Software.
+        </p>
+      </article>
+    </section>
+
+    <section id="tech">
+      <article>
+        <h2>My Favorite Technologies</h2>
+        <span>
+          <p>Estas tecnologias me llaman mucho la atencion</p>
+        </span>
+        <table>
+          <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JAVASCRIPT</th>
+          </tr>
+          <tr>
+            <td><img src="./assets/imgs/html.svg" height="120" alt="" /></td>
+            <td><img src="./assets/imgs/css.svg" height="120" alt="" /></td>
+            <td><img src="./assets/imgs/js.svg" height="120" alt="" /></td>
+          </tr>
+        </table>
+      </article>
+    </section>
+
+    <section id="hobbies">
+      <article>
+        <h2>My Hobbies</h2>
+        <span>
+          <h3>Register your hobbies:</h3>
+        </span>
+        <form id="form">
+          <label for="title">Title </label>
+          <input
+            type="text"
+            placeholder="Title"
+            name="title"
+            id="title"
+            required="true"
+          />
+          <br />
+
+          <label for="description">Description</label>
+          <textarea
+            type="text"
+            placeholder=""
+            name="description"
+            id="description"
+            required="true"
+          >
+          </textarea>
+          <br />
+
+          <label for="image">Url </label>
+          <input type="text" placeholder="Image URL" id="image" />
+          <br />
+
+          <button class="favorite styled" type="button">Enviar</button>
+        </form>
+
+        <article>
+          <h3>Estas son tus actividades:</h3>
+          <div id="activities"></div>
+        </article>
+        <div>aqui se mostrara</div>
+      </article>
+    </section>
+  </body>
 </html>

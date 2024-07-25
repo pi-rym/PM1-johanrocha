@@ -1,0 +1,74 @@
+body{
+
+    background-color: #7b85b3;
+    color: rgb(153, 153, 109);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+
+    border: 3px solid rebeccapurple;
+    padding: 1.5rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 780px){
+
+    body{
+        background-color: #000;
+    }
+}
+
+h2{
+
+    background-color: rgb(203, 189, 216);
+    color: rgb(44, 14, 128);
+    font-size: 32px;
+    font-family: 'brushed', serif;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+#tecnologias {
+
+    background-color: rgb(43, 226, 104);
+    color: bisque;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
